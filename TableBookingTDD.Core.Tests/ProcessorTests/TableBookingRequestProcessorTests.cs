@@ -112,5 +112,26 @@ namespace TableBookingTDD.Core.Tests
             Assert.AreEqual(bookingId, result.BookingId);
 
         }
+
+        [Test]
+        [TestCase(1, true)]
+        [TestCase(null, false)]
+        public void should_return_expected_bookingId_on_booking_duplicate(int bookingId, bool isAvailable)
+        {
+            if (!isAvailable)
+            {
+                _tables.Clear();
+            }
+            else
+            {
+                _bookingRepository.Setup(_ => _.SaveBooking(It.IsAny<TableBooking>())).Callback<TableBooking>(_ => {
+                    _.TableId = bookingId;
+                });
+            }
+            var result = _processor.BookTable(_request);
+
+            Assert.AreEqual(bookingId, result.BookingId);
+
+        }
     }
 }
