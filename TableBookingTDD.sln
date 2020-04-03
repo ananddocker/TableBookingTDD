@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableBookingTDD.Core.Tests", "TableBookingTDD.Core.Tests\TableBookingTDD.Core.Tests.csproj", "{1E587F09-0C61-4597-B7EB-0491AE14540A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableBookingTDD.Core.Tests", "TableBookingTDD.Core.Tests\TableBookingTDD.Core.Tests.csproj", "{1E587F09-0C61-4597-B7EB-0491AE14540A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableBookingTDD.Core", "TableBookingTDD.Core\TableBookingTDD.Core.csproj", "{29A86D36-D975-41A0-A7BA-E09707DD091F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TableBookingTDD.Core", "TableBookingTDD.Core\TableBookingTDD.Core.csproj", "{29A86D36-D975-41A0-A7BA-E09707DD091F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableBookingTDD.DataAccess", "TableBookingTDD.DataAccess\TableBookingTDD.DataAccess.csproj", "{9FCEFF9B-377D-4B3B-84CC-A2C17BA1A9BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableBookingTDD.DataAccess.Tests", "TableBookingTDD.DataAccess.Tests\TableBookingTDD.DataAccess.Tests.csproj", "{271F05FF-D94F-4475-8DB3-8C30E9FD0FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableBookingTDD.Web", "TableBookingTDD.Web\TableBookingTDD.Web.csproj", "{1D6FA9C2-068A-4378-8B1A-5C0281F25E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableBookingTDD.Web.Tests", "TableBookingTDD.Web.Tests\TableBookingTDD.Web.Tests.csproj", "{CFB325C9-DBA9-400F-B091-07F9400EFB7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{29A86D36-D975-41A0-A7BA-E09707DD091F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29A86D36-D975-41A0-A7BA-E09707DD091F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29A86D36-D975-41A0-A7BA-E09707DD091F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCEFF9B-377D-4B3B-84CC-A2C17BA1A9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCEFF9B-377D-4B3B-84CC-A2C17BA1A9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCEFF9B-377D-4B3B-84CC-A2C17BA1A9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCEFF9B-377D-4B3B-84CC-A2C17BA1A9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271F05FF-D94F-4475-8DB3-8C30E9FD0FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271F05FF-D94F-4475-8DB3-8C30E9FD0FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271F05FF-D94F-4475-8DB3-8C30E9FD0FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271F05FF-D94F-4475-8DB3-8C30E9FD0FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D6FA9C2-068A-4378-8B1A-5C0281F25E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6FA9C2-068A-4378-8B1A-5C0281F25E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6FA9C2-068A-4378-8B1A-5C0281F25E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6FA9C2-068A-4378-8B1A-5C0281F25E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB325C9-DBA9-400F-B091-07F9400EFB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB325C9-DBA9-400F-B091-07F9400EFB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB325C9-DBA9-400F-B091-07F9400EFB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB325C9-DBA9-400F-B091-07F9400EFB7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
