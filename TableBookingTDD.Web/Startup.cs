@@ -33,7 +33,7 @@ namespace TableBookingTDD.Web
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World...!");
+                    await context.Response.WriteAsync("Hello World Version 2 no 2 machines!");
                 });
             });
         }
